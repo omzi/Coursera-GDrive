@@ -1,5 +1,4 @@
 import setuptools
-from coursera_gdrive import __version__
 
 
 with open("README.md", "r") as fh:
@@ -7,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="coursera-GDrive",
-    version=__version__,
+    version='0.0.1',
     author="Kaan ARI",
     author_email="kaan.ari.tr@gmail.com",
     description="This small project is helpful for downloading Coursera courses into your Google Drive via Google Colab.",
