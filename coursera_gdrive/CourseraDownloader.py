@@ -11,11 +11,11 @@ ALL_COURSES_API = 'https://api.coursera.org/api/courses.v1?limit=10000'
 
 DEFAULT_GDRIVE_PATH = '/content/drive/My Drive/'
 
-DEFAULT_SAVE_FOLDER = 'COURSERA'
+DEFAULT_SAVE_FOLDER = 'MyCoursera'
 
 COURSERA_DL_PARAMETERS = [
                          '--download-delay 0',
-                         '--video-resolution 720p',
+                         '--video-resolution 360p',
                          '--about',
                          '--download-notebooks',
                          '--download-quizzes'
